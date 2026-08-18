@@ -1,0 +1,12 @@
+node_modules/
+.pnp
+.pnp.js
+
+node_modules/
+.pnp
+.pnp.js
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.log

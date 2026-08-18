@@ -2,6 +2,7 @@
 
 Bu repo, portfolyo web uygulamasının kaynak kodlarını, bileşen mimarisini ve derleme yapılandırmasını içerir.
 
+![Web Sitesi Önizleme](./myweb.png)
 ---
 
 ## 🏗️ Mimari ve Teknik Özellikler

@@ -1,16 +1,30 @@
-# React + Vite
+# ⚡ Kişisel Portfolyo Web Sitesi (Kaynak Kodları)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu repo, portfolyo web uygulamasının kaynak kodlarını, bileşen mimarisini ve derleme yapılandırmasını içerir.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🏗️ Mimari ve Teknik Özellikler
 
-## React Compiler
+* **Modüler Bileşen Yapısı:** Tekrar kullanılabilir React bileşenleri ile organize edilmiş arayüz düzeni.
+* **Modern CSS Grid & Flexbox:** Harici UI kütüphanesi bağımlılığı olmadan, hafif ve esnek 3 sütunlu masaüstü / tek sütunlu mobil uyumlu grid mimarisi.
+* **İstemci Taraflı Filtreleme:** Projeler sekmesinde kategoriye göre (Web, Siber Güvenlik, Makine Öğrenimi) anlık durum (`state`) filtreleme mekanizması.
+* **Performans Odaklı Derleme:** Hızlı Hot Module Replacement (HMR) ve optimize edilmiş statik çıktı yönetimi için **Vite** altyapısı.
+* **Kod Standartları:** Tutarlı ve temiz kod standartları için yapılandırılmış **ESLint** kuralları.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Proje Dizin Yapısı
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+├── public/              # Statik varlıklar (SVG ikonları, yönlendirme dosyaları)
+├── src/
+│   ├── assets/          # Proje içi medya dosyaları
+│   ├── App.css          # Tema, grid sistemleri ve özel stil tanımları
+│   ├── App.jsx          # Ana layout ve durum yönetimi
+│   └── main.jsx         # React DOM kök bağlantısı
+├── .gitignore           # Git takip dışı dosyalar listesi
+├── eslint.config.js     # Linter kuralları ve yapılandırması
+├── index.html           # Uygulama giriş HTML şablonu
+├── package.json         # Bağımlılıklar ve çalıştırma scriptleri
+└── vite.config.js       # Vite derleyici ayarları

@@ -1,6 +1,7 @@
 # ⚡ Kişisel Portfolyo Web Sitesi (Kaynak Kodları)
 
 Bu repo, portfolyo web uygulamasının kaynak kodlarını, bileşen mimarisini ve derleme yapılandırmasını içerir.
+https://emress.netlify.app/
 
 ![Web Sitesi Önizleme](myweb.png)
 ---
